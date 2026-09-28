@@ -11,6 +11,8 @@
 */
 #pragma once
 
+#include "Core_parameters.hpp"
+
 #pragma pack(push, 0x4)
 
 /*

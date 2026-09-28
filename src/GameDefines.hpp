@@ -11,18 +11,19 @@
 */
 #pragma once
 
-#include <cctype>
+// IWYU pragma: begin_exports
+
+#include <cstdint>
 #include <cstdlib>
 
 #include <algorithm>
-#include <chrono>
-#include <locale>
 #include <map>
 #include <string>
-#include <thread>
 #include <vector>
 
 #include <Windows.h>
+
+// IWYU pragma: end_exports
 
 #pragma pack(push, 0x4)
 

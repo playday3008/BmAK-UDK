@@ -9,7 +9,7 @@
 # Links: github.com/playday3008/CodeRed-Generator
 #############################################################################################
 */
-#include "../SdkHeaders.hpp"
+#include "BmScript_classes.hpp"
 
 #pragma pack(push, 0x4)
 

@@ -11,6 +11,10 @@
 */
 #pragma once
 
+#include "../GameDefines.hpp"
+
+#include "Engine_structs.hpp"
+
 #pragma pack(push, 0x4)
 
 /*

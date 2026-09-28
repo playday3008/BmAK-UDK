@@ -11,6 +11,10 @@
 */
 #pragma once
 
+#include "Engine_parameters.hpp"
+
+#include "Core_classes.hpp"
+
 #pragma pack(push, 0x4)
 
 /*

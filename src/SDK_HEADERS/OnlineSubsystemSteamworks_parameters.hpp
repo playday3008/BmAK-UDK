@@ -11,6 +11,10 @@
 */
 #pragma once
 
+#include "OnlineSubsystemSteamworks_structs.hpp"
+
+#include "IpDrv_parameters.hpp"
+
 #pragma pack(push, 0x4)
 
 /*

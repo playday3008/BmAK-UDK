@@ -17,34 +17,21 @@
 # ========================================================================================= #
 */
 
+// IWYU pragma: begin_exports
+
 #include "GameDefines.hpp"
-#include "SDK_HEADERS/Core_structs.hpp"
+
 #include "SDK_HEADERS/Core_classes.hpp"
-#include "SDK_HEADERS/Core_parameters.hpp"
-#include "SDK_HEADERS/Engine_structs.hpp"
 #include "SDK_HEADERS/Engine_classes.hpp"
-#include "SDK_HEADERS/Engine_parameters.hpp"
-#include "SDK_HEADERS/AkAudio_structs.hpp"
 #include "SDK_HEADERS/AkAudio_classes.hpp"
-#include "SDK_HEADERS/AkAudio_parameters.hpp"
-#include "SDK_HEADERS/IpDrv_structs.hpp"
 #include "SDK_HEADERS/IpDrv_classes.hpp"
-#include "SDK_HEADERS/IpDrv_parameters.hpp"
-#include "SDK_HEADERS/GFxUI_structs.hpp"
 #include "SDK_HEADERS/GFxUI_classes.hpp"
-#include "SDK_HEADERS/GFxUI_parameters.hpp"
-#include "SDK_HEADERS/WinDrv_structs.hpp"
 #include "SDK_HEADERS/WinDrv_classes.hpp"
-#include "SDK_HEADERS/WinDrv_parameters.hpp"
-#include "SDK_HEADERS/OnlineSubsystemSteamworks_structs.hpp"
 #include "SDK_HEADERS/OnlineSubsystemSteamworks_classes.hpp"
-#include "SDK_HEADERS/OnlineSubsystemSteamworks_parameters.hpp"
-#include "SDK_HEADERS/BmGame_structs.hpp"
 #include "SDK_HEADERS/BmGame_classes.hpp"
-#include "SDK_HEADERS/BmGame_parameters.hpp"
-#include "SDK_HEADERS/BmScript_structs.hpp"
 #include "SDK_HEADERS/BmScript_classes.hpp"
-#include "SDK_HEADERS/BmScript_parameters.hpp"
+
+// IWYU pragma: end_exports
 
 /*
 # ========================================================================================= #

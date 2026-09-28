@@ -11,6 +11,10 @@
 */
 #pragma once
 
+#include "BmScript_structs.hpp"
+
+#include "BmGame_parameters.hpp"
+
 #pragma pack(push, 0x4)
 
 /*

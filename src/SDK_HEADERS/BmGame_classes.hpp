@@ -11,6 +11,10 @@
 */
 #pragma once
 
+#include "BmGame_parameters.hpp"
+
+#include "GFxUI_classes.hpp"
+
 #pragma pack(push, 0x4)
 
 /*

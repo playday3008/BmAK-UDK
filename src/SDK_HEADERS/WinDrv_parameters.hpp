@@ -11,6 +11,10 @@
 */
 #pragma once
 
+#include "WinDrv_structs.hpp"
+
+#include "Engine_parameters.hpp"
+
 #pragma pack(push, 0x4)
 
 /*

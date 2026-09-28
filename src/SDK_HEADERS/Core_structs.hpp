@@ -11,6 +11,8 @@
 */
 #pragma once
 
+#include "../GameDefines.hpp"
+
 #pragma pack(push, 0x4)
 
 /*

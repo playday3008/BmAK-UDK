@@ -11,6 +11,10 @@
 */
 #pragma once
 
+#include "IpDrv_parameters.hpp"
+
+#include "Engine_classes.hpp"
+
 #pragma pack(push, 0x4)
 
 /*
