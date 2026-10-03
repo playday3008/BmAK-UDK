@@ -47,3 +47,9 @@ target_compile_options(BmAK_UDK PRIVATE
 
 # The generated sources are tens of MB; LTO on them only slows every link.
 set_target_properties(BmAK_UDK PROPERTIES INTERPROCEDURAL_OPTIMIZATION OFF)
+
+# An ASI plugin that exercises the SDK against the running game; see tests/ingame/main.cpp.
+option(BMAK_UDK_BUILD_INGAME_TEST "Build the in-game SDK test plugin" OFF)
+if(BMAK_UDK_BUILD_INGAME_TEST)
+    add_subdirectory(tests/ingame)
+endif()
