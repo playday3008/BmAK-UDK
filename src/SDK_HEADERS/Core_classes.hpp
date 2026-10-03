@@ -1031,9 +1031,11 @@ class UStruct : public UField
 public:
 	class UField* SuperField; // 0x005C (0x0008)
 	class UField* Children; // 0x0064 (0x0008)
-	uint8_t UnknownData00[0xC];// 0x006C (0x000C) DYNAMIC FIELD PADDING
+	uint8_t* ScriptData; // 0x006C (0x0008)
+	uint16_t ScriptSize; // 0x0074 (0x0002)
+	uint16_t ScriptCapacity; // 0x0076 (0x0002)
 	uint16_t PropertySize; // 0x0078 (0x0002)
-	uint8_t UnknownData01[0x2A];// 0x007A (0x002A) DYNAMIC FIELD PADDING
+	uint8_t UnknownData00[0x2A];// 0x007A (0x002A) DYNAMIC FIELD PADDING
 
 public:
 	static UClass* StaticClass()
@@ -1077,7 +1079,8 @@ class UFunction : public UStruct
 public:
 	uint32_t FunctionFlags; // 0x00A4 (0x0004)
 	uint16_t iNative; // 0x00A8 (0x0002)
-	uint8_t UnknownData00[0x1A];// 0x00AA (0x001A) DYNAMIC FIELD PADDING
+	uint8_t UnknownData00[0x12];// 0x00AA (0x0012) DYNAMIC FIELD PADDING
+	void* Func; // 0x00BC (0x0008)
 
 public:
 	static UClass* StaticClass()
