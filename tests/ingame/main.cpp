@@ -1,6 +1,7 @@
 // In-game checks for the SDK, one per issue fixed in the generator. Load the ASI into the
 // game, reach the main menu or a save, then read BmAK-UDK.Test.log next to the executable.
-// A crash leaves the log ending at the "RUN" line of the check that crashed.
+// A crash leaves the log ending at the "RUN" line of the check that crashed, or at
+// "Waiting for a WorldInfo" if it happens while resolving classes by name.
 //
 // The checks call script functions from this thread rather than the game thread. They only
 // use pure Core.Object natives and read reflection data, so nothing they touch is mutated
